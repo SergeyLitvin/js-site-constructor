@@ -1,0 +1,31 @@
+{
+  "name": "js-site-constructor",
+  "version": "1.0.0",
+  "description": "Site constructor on JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyLitvin/js-site-constructor.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "site constructor"
+  ],
+  "author": "Sergey Litvin <serg.litvin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyLitvin/js-site-constructor/issues"
+  },
+  "homepage": "https://github.com/SergeyLitvin/js-site-constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "styles": "^0.2.1"
+  }
+}

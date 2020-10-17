@@ -1,5 +1,5 @@
 const model = [
-    {type: 'title', value: 'Constructor sites on Javascript'},
+    {type: 'title', value: 'Constructor sites on Javascript!!!'},
     {type: 'text', value: 'here we go'},
     {
         type: 'columns', value: [

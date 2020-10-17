@@ -1,52 +1,6 @@
-const model = [
-    {type: 'title', value: 'Constructor sites on Javascript!!!'},
-    {type: 'text', value: 'here we go'},
-    {
-        type: 'columns', value: [
-            '1111111111111',
-            '2222222222222',
-            '3333333333333'
-        ]
-    },
-    {type: 'image', value: './assets/image.png'}
-];
-
-function title(block) {
-    return `
-        <div class="row">
-            <div class="col-sm">
-                <h1>${block.value}</h1>
-            </div>
-        </div>
-    `;
-}
-
-function text(block) {
-    return `
-        <div class="row">
-            <div class="col-sm">
-                <p>${block.value}</p>
-            </div>
-        </div>
-    `;
-}
-
-function columns(block) {
-    const arrHtml = block.value.map( item => `<div class="col-sm">${item}</div>`);
-    return `
-        <div class="row">
-            ${arrHtml.join('')}
-        </div>
-    `;
-}
-
-function image(block) {
-    return `
-        <div class="row">
-            <img src="${block.value}" />
-        </div>
-    `
-}
+import { model } from './js/model';
+import { title, text, columns, image } from "./js/templates";
+import './styles/main.css';
 
 const $site = document.querySelector('#site');
 

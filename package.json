@@ -1,0 +1,20 @@
+{
+  "name": "js-site-constructor",
+  "version": "1.0.0",
+  "description": "Site constructor on JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyLitvin/js-site-constructor.git"
+  },
+  "keywords": ["JavaScript", "site constructor"],
+  "author": "Sergey Litvin <serg.litvin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyLitvin/js-site-constructor/issues"
+  },
+  "homepage": "https://github.com/SergeyLitvin/js-site-constructor#readme"
+}

@@ -1,5 +1,9 @@
 node_modules/*
-dist/**/*
+dist/*.html
+dist/*.css
+dist/*.css.map
+dist/*.js
+dist/*.js.map
 .cache/*
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm

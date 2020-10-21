@@ -1,3 +1,5 @@
+import image from '../assets/image.png';
+
 export const model = [
     {type: 'title', value: 'Constructor sites on Javascript!'},
     {type: 'text', value: 'here we go'},
@@ -8,5 +10,5 @@ export const model = [
             '3333333333333'
         ]
     },
-    {type: 'image', value: './assets/image.png'}
+    {type: 'image', value: image}
 ];

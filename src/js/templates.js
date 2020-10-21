@@ -9,7 +9,7 @@ function text(block) {
 }
 
 function columns(block) {
-    const arrHtml = block.value.map( item => `col(item)`);
+    const arrHtml = block.value.map( item => col(item));
     return row(arrHtml.join(''));
 }
 

@@ -1,5 +1,5 @@
 node_modules/*
-dist/*
+dist/**/*
 .cache/*
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm

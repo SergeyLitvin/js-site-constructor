@@ -4,7 +4,11 @@ dist/*.css
 dist/*.css.map
 dist/*.js
 dist/*.js.map
-.cache/*
+.cache/**.*
+.cache/**.*
+.cache/*.json
+.cache/*.js
+.cache/*.xml
 # Created by https://www.toptal.com/developers/gitignore/api/phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm
 

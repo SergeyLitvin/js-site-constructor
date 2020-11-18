@@ -1,7 +1,8 @@
-import { row, col } from './utils';
+import { row, col, container } from './utils';
 
 function title(block) {
-    return row(col(`<h1>${block.value}</h1>`));
+    const { tag = 'h1', styles} = block.options;
+    return row(col(`<${tag} style="${styles}">${block.value}</>`));
 }
 
 function text(block) {
@@ -10,7 +11,7 @@ function text(block) {
 
 function columns(block) {
     const arrHtml = block.value.map( item => col(item));
-    return row(arrHtml.join(''));
+    return container(row(arrHtml.join('')));
 }
 
 function image(block) {

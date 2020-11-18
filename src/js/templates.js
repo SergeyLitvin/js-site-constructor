@@ -1,8 +1,9 @@
-import { row, col, container } from './utils';
+import { row, col, container, css } from './utils';
 
 function title(block) {
     const { tag = 'h1', styles} = block.options;
-    return row(col(`<${tag} style="${styles}">${block.value}</>`));
+    console.log('styles(): ', styles);
+    return row(col(`<${tag}>${block.value}</>`), css(styles));
 }
 
 function text(block) {

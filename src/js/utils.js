@@ -1,5 +1,5 @@
-export function row(content) {
-    return `<div class="row">${content}</div>`
+export function row(content, styles = '') {
+    return `<div class="row" style="${styles}">${content}</div>`
 }
 
 export function col(content) {
@@ -8,4 +8,9 @@ export function col(content) {
 
 export function container(content) {
     return `<div class="container">${content}</div>`
+}
+
+export function css(styles = {}) {
+    const toString = (key) => `${key}: ${styles[key]}`;
+    return Object.keys(styles).map(toString).join(';');
 }

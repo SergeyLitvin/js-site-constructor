@@ -183,3 +183,10 @@ typings/
 # Parcel related files
 dist/
 .cache/
+.cache/88/**.json
+.cache/d4/**.json
+.cache/ce/**.json
+.cache\
+.cache\88\**.json
+.cache\d4\**.json
+.cache\ce\**.json

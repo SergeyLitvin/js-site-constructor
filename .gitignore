@@ -5,6 +5,7 @@ dist/*.css.map
 dist/*.js
 dist/*.js.map
 .cache/**.*
+.cache\**.*
 .cache/**.*
 .cache/*.json
 .cache/*.js

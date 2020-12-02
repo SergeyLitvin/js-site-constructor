@@ -2,8 +2,7 @@ import { row, col, container, css } from './utils';
 
 function title(block) {
     const { tag = 'h1', styles} = block.options;
-    console.log('styles(): ', styles);
-    return row(col(`<${tag}>${block.value}</>`), css(styles));
+    return row(col(`<${tag}>${block.value}</${tag}>`), css(styles));
 }
 
 function text(block) {
@@ -12,16 +11,18 @@ function text(block) {
 
 function columns(block) {
     const arrHtml = block.value.map( item => col(item));
-    return container(row(arrHtml.join('')));
+    return container(row(arrHtml.join('')), css(block.options.styles));
 }
 
 function image(block) {
-    return row(`<img src="${block.value}" />`)
+    const {imageStyles, alt = '', styles} = block.options;
+    return row(`<img src="${block.value}" alt="${alt}" style="${css(imageStyles)}" />`, css(styles));
 }
 
 export const templates = {
     title,
     text,
-    columns,
     image,
+    columns,
+
 };

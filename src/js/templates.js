@@ -6,12 +6,14 @@ function title(block) {
 }
 
 function text(block) {
-    return row(col(`<p>${block.value}</p>`));
+    return row(col(`<p>${block.value}</p>`), css(block.options.styles));
 }
 
 function columns(block) {
+    const { styles } = block.options;
+    console.log('styles(): ', styles);
     const arrHtml = block.value.map( item => col(item));
-    return container(row(arrHtml.join('')), css(block.options.styles));
+    return container(row(arrHtml.join(''), css(styles)));
 }
 
 function image(block) {

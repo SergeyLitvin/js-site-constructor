@@ -1,4 +1,4 @@
-export function row(content, styles = '') {
+export function row(content, styles = {}) {
     return `<div class="row" style="${styles}">${content}</div>`
 }
 

@@ -5,24 +5,38 @@ export const model = [
         value: 'Constructor sites on pure Javascript!',
         options: {
             tag: 'h1',
+            // styles: `background: linear-gradient(to right, #ff0099, #493240); color: #ffffff; text-align: center; padding: 1.5rem;`,
             styles: {
-                background: 'linear-gradient(to right, #ff0099, #493240); color: #ffffff; text-align: center; padding: 1.5rem;'
+                background: "linear-gradient(to right, #ff0099, #493240)",
+                color: "#ffffff",
+                "text-align": "center",
+                padding: "1.5rem"
             }
         }
     },
-    {type: 'text', value: 'here we go'},
-    {
-        type: 'columns', value: [
-            '1111111111111',
-            '2222222222222',
-            '3333333333333'
-        ],
-        options: {
-            styles: {
-                background: 'linear-gradient(to right, #ff0099, #493240); color: #ffffff; text-align: center; padding: 1.5rem;'
-            }
-        }
-    },
+    // {type: 'text', value: 'here we go', options: {
+    //         styles: {
+    //             padding: "1rem",
+    //             color: "#000000",
+    //             "font-weight": "400"
+    //         }
+    //     }
+    // },
+    // {
+    //     type: 'columns', value: [
+    //         '1111111111111',
+    //         '2222222222222',
+    //         '3333333333333'
+    //     ],
+    //     options: {
+    //         styles: {
+    //             background: "#c4c4c4",
+    //             color: "#ffffff",
+    //             "text-align": "center",
+    //             padding: "1.5rem"
+    //         }
+    //     }
+    // },
     {
         type: 'image', value: image, options: {
             styles: {
@@ -44,20 +58,20 @@ export const model = [
             'JavaScript - это просто и интересно. Научись создавать любые UI своими руками.'
         ], options:  {
             styles: {
-                background: 'linear-gradient(to bottom, #8e2de2, #4a00e0',
-                padding: '2rem',
-                color: '#ffffff',
-                'font-weight': '700'
+                background: "linear-gradient(to left, #8e2de2, #4a00e0)",
+                padding: "2rem",
+                color: "#ffffff",
+                "font-weight": "700"
             }
         }
     },
-    {
-        type: 'text', value: 'text', options: {
-            styles: {
-                background: 'linear-gradient(to left, #f2994a, #f2c94c',
-                padding: '1rem',
-                'font-weight': '700'
-            }
-        }
-    }
+    // {
+    //     type: 'text', value: 'text', options: {
+    //         styles: {
+    //             background: "linear-gradient(to right, #f2994a, #f2c94c",
+    //             padding: "1rem",
+    //             "font-weight": "700"
+    //         }
+    //     }
+    // }
 ];

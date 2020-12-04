@@ -186,7 +186,16 @@ dist/
 .cache/88/**.json
 .cache/d4/**.json
 .cache/ce/**.json
+.cache/88/*
+.cache/d4/*
+.cache/ce/*
 .cache\
 .cache\88\**.json
 .cache\d4\**.json
 .cache\ce\**.json
+.cache\88\*
+.cache\d4\*
+.cache\ce\*
+.cache\88
+.cache\d4
+.cache\ce

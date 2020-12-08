@@ -65,13 +65,17 @@ export const model = [
             }
         }
     },
-    // {
-    //     type: 'text', value: 'text', options: {
-    //         styles: {
-    //             background: "linear-gradient(to right, #f2994a, #f2c94c",
-    //             padding: "1rem",
-    //             "font-weight": "700"
-    //         }
-    //     }
-    // }
+    {
+        type: 'text', value: 'Прокачайся от Junior до Middle разработчика всего за 1 месяц!',
+        options: {
+            styles: {
+                background: "linear-gradient(to right, #f2994a, #f2c94c)",
+                padding: "1.2rem 0 0",
+                margin: "0 0",
+                "text-align": "center",
+                "font-weight": "700",
+                color: "#ffffff",
+            }
+        }
+    }
 ];

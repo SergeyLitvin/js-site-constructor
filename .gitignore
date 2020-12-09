@@ -180,8 +180,13 @@ typings/
 # dotenv environment variables file
 .env
 
+
 # Parcel related files
 dist/
+# Parcel related files
+dist/
+.cache
+.parcel-cache
 .cache/
 .cache/88/**.json
 .cache/d4/**.json
@@ -199,3 +204,4 @@ dist/
 .cache\88
 .cache\d4
 .cache\ce
+/.cache/

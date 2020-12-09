@@ -1,8 +1,8 @@
 import image from '../assets/image.png';
-import { Block } from './../classes/blocks';
+import { TitleBlock, ImageBlock, ColumnsBlock, TextBlock  } from './../classes/blocks';
 
 export const model = [
-    new Block('title', 'Constructor sites on pure Javascript!', {
+    new TitleBlock('Constructor sites on pure Javascript!', {
         tag: 'h1',
         styles: {
            background: "linear-gradient(to right, #ff0099, #493240)", value: 'Constructor sites on pure Javascript!',
@@ -11,7 +11,7 @@ export const model = [
            padding: "1.5rem"
        }
     }),
-    new Block('image', image, {
+    new ImageBlock(image, {
         styles: {
             padding: '2rem 0',
             display: 'flex',
@@ -23,7 +23,7 @@ export const model = [
         },
         alt: 'Image for course'
     }),
-    new Block('columns', [
+    new ColumnsBlock( [
         'Напишешь приложение на чистом JavaScript, без использования библиотек',
         'Узнаешь как работают принципы SOLID и OOP в JavaScript за один курс',
         'JavaScript - это просто и интересно. Научись создавать любые UI своими руками.'
@@ -35,7 +35,7 @@ export const model = [
             "font-weight": "700"
         }
     }),
-    new Block('text', 'Прокачайся от Junior до Middle разработчика всего за 1 месяц!', {
+    new TextBlock('Прокачайся от Junior до Middle разработчика всего за 1 месяц!', {
         styles: {
             background: "linear-gradient(to right, #f2994a, #f2c94c)",
             padding: "1.2rem 0 0",

@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e75daf9-c46c-4718-bd0c-dc58ee13617b" name="Default Changelist" comment="Ignore files and folders for parcel">
+    <list default="true" id="5e75daf9-c46c-4718-bd0c-dc58ee13617b" name="Default Changelist" comment="Realize method toHTML in classes in blocks.js and delete templates.js">
       <change afterPath="$PROJECT_DIR$/src/classes/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/2d/104d9b93ee834ad3ac6439b8b4c6aa.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2d/104d9b93ee834ad3ac6439b8b4c6aa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/30/83692f1e69b299fb651d810e16d93b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/30/83692f1e69b299fb651d810e16d93b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/88/8dba1e2a8dcf7d0f33ac5e89cc9b26.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/88/8dba1e2a8dcf7d0f33ac5e89cc9b26.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/blocks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/templates.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,7 @@
       <workItem from="1606949311395" duration="3939000" />
       <workItem from="1607121592057" duration="6083000" />
       <workItem from="1607456908782" duration="7012000" />
-      <workItem from="1608068920107" duration="2984000" />
+      <workItem from="1608068920107" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="Init package.json and add description project.">
       <created>1602948628004</created>
@@ -409,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608070208008</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Ignore files and folders for parcel">
+      <created>1608071969660</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1608071969660</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Move templates html in templates.js, refactor model." />
     <MESSAGE value="Add ignore dist folder." />
     <MESSAGE value="Add ignore dist folder and all files." />
     <MESSAGE value="Add temp files." />
@@ -454,7 +456,8 @@
     <MESSAGE value="Add class Blok. Refactor model into Class Block." />
     <MESSAGE value="Ignore .cache for parcel" />
     <MESSAGE value="Ignore files and folders for parcel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore files and folders for parcel" />
+    <MESSAGE value="Realize method toHTML in classes in blocks.js and delete templates.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realize method toHTML in classes in blocks.js and delete templates.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="174" key="FileChooserDialogImpl" timestamp="1603400834286">

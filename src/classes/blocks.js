@@ -35,7 +35,7 @@ export class ImageBlock extends Block {
 
 export class ColumnsBlock extends Block {
     constructor(value, options) {
-        super('columns', value, options);
+        super(value, options);
     }
 
     toHTML() {

@@ -71,3 +71,4 @@ dist/
 .idea/workspace.xml
 !/.cache/
 !/.idea/
+/.idea/

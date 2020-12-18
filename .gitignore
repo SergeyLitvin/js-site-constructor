@@ -66,3 +66,4 @@ dist/
 .cache
 .cache/**/**.*
 .cache/**.*
+.cache/**.xml

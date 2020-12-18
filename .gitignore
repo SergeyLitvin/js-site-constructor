@@ -68,3 +68,4 @@ dist/
 .cache/**.*
 .cache/**.xml
 .idea/**.xml
+.idea/workspace.xml

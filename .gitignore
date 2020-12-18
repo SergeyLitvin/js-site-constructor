@@ -64,3 +64,5 @@ typings/
 dist/
 .cache/
 .cache
+.cache/**/**.*
+.cache/**.*

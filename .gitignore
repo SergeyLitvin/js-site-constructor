@@ -67,3 +67,4 @@ dist/
 .cache/**/**.*
 .cache/**.*
 .cache/**.xml
+.idea/**.xml

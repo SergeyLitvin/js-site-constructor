@@ -6,8 +6,9 @@ export const model = [
         tag: 'h1',
         styles: {
            background: "linear-gradient(to right, #ff0099, #493240)", value: 'Constructor sites on pure Javascript!',
-           color: "#ffffff",
-           "text-align": "center",     tag: 'h1',
+           color: "#cccccc",
+           "text-align": "center",
+           tag: 'h1',
            padding: "1.5rem"
        }
     }),

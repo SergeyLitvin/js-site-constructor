@@ -15,7 +15,7 @@ export class Sidebar {
         return [
             block('text'),
             block('title')
-        ].join();
+        ].join('');
     }
 
     add(e) {

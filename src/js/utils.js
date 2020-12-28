@@ -27,6 +27,6 @@ export function block(type) {
             </div>
             <button type="submit" class="btn btn-primary btn-sm">Добавить блок</button>
         </form>
-        <hr />
+        <hr/>
     `;
 }

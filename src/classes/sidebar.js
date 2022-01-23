@@ -1,5 +1,5 @@
 import { block } from '../js/utils'
-import {TextBlock, TitleBlock} from "./blocks";
+import { TextBlock, TitleBlock } from "./blocks";
 export class Sidebar {
     constructor(selector) {
         this.$el = document.querySelector(selector);

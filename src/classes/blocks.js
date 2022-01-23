@@ -1,4 +1,4 @@
-import {col, container, css, row} from "../js/utils";
+import { col, container, css, row } from "../js/utils";
 
 export class Block {
     constructor(value, options) {

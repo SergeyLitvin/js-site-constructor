@@ -1,5 +1,5 @@
 import { model } from './js/model';
-import {App} from "./classes/app";
+import { App } from "./classes/app";
 import './styles/main.css';
 
 
